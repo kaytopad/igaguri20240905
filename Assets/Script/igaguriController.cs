@@ -13,6 +13,7 @@ public class igaguriController : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         GetComponent<Rigidbody>().isKinematic = true;
+        GetComponent<ParticleSystem>().Play();
     }
     // Start is called before the first frame update
     void Start()
