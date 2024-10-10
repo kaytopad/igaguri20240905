@@ -22,4 +22,6 @@ public class igaguriController : MonoBehaviour
         //Shoot(new Vector3(0, 200, 2000));
     }
 
+
+
 }

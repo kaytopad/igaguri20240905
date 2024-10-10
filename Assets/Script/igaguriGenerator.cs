@@ -9,6 +9,8 @@ public class igaguriGenerator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+       
+
         //クリックでイガグリを生成し続ける
         if (Input.GetMouseButtonDown(0))
         {
