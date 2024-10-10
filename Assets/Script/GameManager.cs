@@ -32,7 +32,7 @@ public class GameManager : MonoBehaviour
     }
 
     //エンドメソッド
-    public void EndGame(int Scores)
+    public void EndGame()
     {
         //獲得したスコアとリザルト画面へ遷移
         SceneData.score = ScoreScript.instance.GetCurrentScore();
